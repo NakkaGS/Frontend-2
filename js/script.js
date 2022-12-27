@@ -57,4 +57,12 @@ $(document).ready(function(){
             }
         });
     });
+
+    $('.testimonial .owl-carousel').owlCarousel ({
+        loop: true,
+        autoplay: true,
+        dots: true,
+        nav: false, 
+        items: 1,
+    })
 })
